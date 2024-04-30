@@ -1,0 +1,39 @@
+.box-container{
+    
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        width: 100%;
+        background-image: linear-gradient(to right top, #d16ba5, #c876b8, #bb81c9, #ac8cd6, #9c97e0, #919ee6, #87a5eb, #7cacee, #75b2f2, #6db9f6, #66bff9, #5fc5fb);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+}
+.card{
+    margin: 10px;
+    border: 10px;
+    padding: 20px;
+    color: #000000;
+    background: rgb(144, 110, 189);
+    backdrop-filter:blur(30px) ;
+    border: 2px solid rgba(255,255,255,.2 );
+    border-radius: 16px; 
+    h1{
+        font-size: 65px;
+    }
+
+    p{
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    button{
+        font-size: larger;
+        margin-top: 1em;
+        font-weight: 600;
+        background-color: rgb(237, 57, 57) !important; 
+    }
+
+}
